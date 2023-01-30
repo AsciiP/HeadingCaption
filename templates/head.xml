@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+    <sequence id="SubtitleSeq">
+        <name>SubtitleSeq</name>
+        <duration>0</duration>
+        <rate>
+            <ntsc>FALSE</ntsc>
+            <timebase>{FRAMERATE}</timebase>
+            <!-- FRAMERATE -->
+        </rate>
+        <timecode>
+            <rate>
+                <timebase>{FRAMERATE}</timebase>
+                <!-- FRAMERATE -->
+                <ntsc>FALSE</ntsc>
+            </rate>
+            <string>00:00:00:00</string>
+            <frame>0</frame>
+            <displayformat>NDF</displayformat>
+        </timecode>
+        <width>{WIDTH}</width>
+        <!-- WIDTH -->
+        <height>{HEIGHT}</height>
+        <!-- HEIGHT -->
+        <media>
+            <video>
+                <format>
+                    <samplecharacteristics>
+                        <rate>
+                            <ntsc>FALSE</ntsc>
+                            <timebase>{FRAMERATE}</timebase>
+                            <!-- FRAMERATE -->
+                        </rate>
+                        <width>{WIDTH}</width>
+                        <!--WIDTH-->
+                        <height>{HEIGHT}</height>
+                        <!--HEIGHT-->
+                        <pixelaspectratio>Square</pixelaspectratio>
+                        <anamorphic>FALSE</anamorphic>
+                    </samplecharacteristics>
+                </format>
+                <track>

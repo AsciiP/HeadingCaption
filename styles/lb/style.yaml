@@ -1,0 +1,17 @@
+# HeadingCaption 样式表
+
+name: lb # 名称，仅做标识用，保持和文件夹一致即可。
+bg_margin: 20 # 背景外边缘，也就是包裹文本的厚度。
+bg_radius: 20 # 背景圆角矩形半径。
+bg_color: forestgreen # 背景颜色。
+font_name: heavy.ttf # 字体名称，在fonts文件夹中的名称
+font_size: 100 # 字体大小。
+font_color: white # 字体颜色。
+multiline_spacing: 10 # 换行时行距。
+x: 960 # 锚点X坐标。
+y: 1050 # 锚点Y坐标。
+anchor: md # 文本锚点。可接受：(l, m, r) + (a, m, s, d)。参考：https://v1.mk/PgLAJg3 (Pillow documention)
+stroke_width: 5 # 描边粗细。
+stroke_color: black # 描边颜色。
+logo: head.png # 人物Logo。人物Logo。有则填该文件夹中的文件名，无则填no。
+logo_spacing: 10 # Logo与文本的间距

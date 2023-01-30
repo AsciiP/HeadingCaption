@@ -1,0 +1,32 @@
+                    <clipitem id="{FILE}">
+                    <!-- FILE -->
+                        <name>{FILE}</name>
+                        <!-- FILE -->
+                        <start>{START}</start>
+                        <!-- START -->
+                        <end>{END}</end>
+                        <!-- END -->
+                        <pixelaspectratio>Square</pixelaspectratio>
+                        <stillframe>TRUE</stillframe>
+                        <file id="{FILE}">
+                        <!-- FILE -->
+                            <name>{FILE}</name>
+                            <!-- FILE -->
+                            <pathurl>{PATH}</pathurl>
+                            <!-- PATH -->
+                            <rate>
+                                <ntsc>FALSE</ntsc>
+                                <timebase>{FRAMERATE}</timebase>
+                                <!-- FRAMERATE -->
+                            </rate>
+                            <width>{WIDTH}</width>
+                            <!-- WIDTH -->
+                            <height>{HEIGHT}</height>
+                            <!-- HEIGHT -->
+                            <media>
+                                <video>
+                                    <stillframe>TRUE</stillframe>
+                                </video>
+                            </media>
+                        </file>
+                    </clipitem>

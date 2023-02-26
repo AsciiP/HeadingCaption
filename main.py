@@ -1,4 +1,3 @@
-import PIL.Image
 from PIL import Image, ImageDraw, ImageFont, ImageColor
 import pysubs2
 import os, sys
@@ -66,7 +65,7 @@ empty = Image.new(mode='RGBA', size=(width, height), color=(0, 0, 0, 0))
 # Draw texts from an empty image, return an Image object
 
 
-def draw_texts(subtitles: list) -> PIL.Image.Image:
+def draw_texts(subtitles: list):
     text_image = empty.copy()
     y_delta = 0
 

@@ -3,14 +3,15 @@ import pysubs2
 import os, sys
 import yaml
 
-# Load file and check if it's a valid subtitle file
+# Load file
 
-sub_file = pysubs2.load(sys.argv[1])
-if not sub_file:
-    print('File not found or not a valid subtitle file.')
+try:
+    sub_file = pysubs2.load(sys.argv[1])
+except IndexError:
+    print('Please specify a subtitle file.')
     exit()
 
-# Load style file
+# Load style files
 
 styles = {}
 for name in os.listdir('./styles/'):
@@ -37,7 +38,7 @@ height = config['height']
 framerate = config['framerate']
 row_spacing = config['row_spacing']
 
-# Preload font file
+# Preload font files
 
 fonts = {}
 for style in styles.values():
@@ -47,7 +48,7 @@ for style in styles.values():
 
 del style, font
 
-# Preload logo image
+# Preload logo images
 
 logos = {}
 for style in styles.values():
